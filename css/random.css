@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ .container {
+    height: 100px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    margin: 0 auto;
+    width: 75%;
+}
+
+img {
+    object-fit: cover;
+    height: 75%;
+    width: 75%;
+}
